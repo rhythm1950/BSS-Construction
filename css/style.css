@@ -112,7 +112,7 @@ hr {
 }
 
 /*First level styles */
-.main-menu>ul>li>a {
+.main-menu > ul > li > a {
   color: #333;
   padding: 0 12px 20px 12px;
   font-size: 14px;
@@ -120,7 +120,7 @@ hr {
   font-weight: 600;
 }
 
-.main-menu>ul>li:hover>a {
+.main-menu > ul > li:hover > a {
   color: rgb(0, 199, 166);
 }
 
@@ -168,9 +168,8 @@ hr {
 
 /* All styles for screen size between 992px and 1200px */
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /*First level styles */
-  .main-menu>ul>li>a {
+  .main-menu > ul > li > a {
     padding: 0 5px 15px 5px;
   }
 }
@@ -189,8 +188,8 @@ hr {
     display: inline-block;
   }
 
-  .main-menu ul li.submenu:hover>a:before,
-  .main-menu ul li.submenu:hover>a:after {
+  .main-menu ul li.submenu:hover > a:before,
+  .main-menu ul li.submenu:hover > a:after {
     bottom: -20px;
     opacity: 0;
   }
@@ -227,7 +226,7 @@ hr {
     box-sizing: border-box;
   }
 
-  .main-menu ul li:hover>ul,
+  .main-menu ul li:hover > ul,
   .main-menu ul li:hover .menu-wrapper {
     padding: 0;
     visibility: visible;
@@ -270,7 +269,7 @@ hr {
     border-bottom: none;
   }
 
-  .main-menu ul ul li:hover>a {
+  .main-menu ul ul li:hover > a {
     background-color: #f3f3f3;
     color: rgb(0, 199, 166);
     padding-left: 15px;
@@ -381,7 +380,7 @@ hr {
     text-transform: uppercase;
   }
 
-  .megamenu .menu-wrapper>div {
+  .megamenu .menu-wrapper > div {
     padding: 0;
   }
 
@@ -399,11 +398,11 @@ hr {
     color: rgb(0, 199, 166) !important;
   }
 
-  .main-menu ul>li {
+  .main-menu ul > li {
     padding-bottom: 0;
   }
 
-  .main-menu ul>li i {
+  .main-menu ul > li i {
     float: right;
   }
 
@@ -452,14 +451,14 @@ hr {
     transform: translateX(0);
   }
 
-  .main-menu .show-submenu+ul,
-  a.show-submenu-mega+.menu-wrapper {
+  .main-menu .show-submenu + ul,
+  a.show-submenu-mega + .menu-wrapper {
     display: none;
     visibility: hidden;
   }
 
-  a.show-submenu-mega+.menu-wrapper.show_mega,
-  .main-menu a.show-submenu+ul.show_normal {
+  a.show-submenu-mega + .menu-wrapper.show_mega,
+  .main-menu a.show-submenu + ul.show_normal {
     display: block;
     visibility: visible;
   }
@@ -1016,14 +1015,14 @@ ul#contact_details_footer li#email_footer {
   text-align: center;
 }
 
-#hero_video>div {
+#hero_video > div {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   padding: 0 10%;
 }
 
-#hero_video>div h3 {
+#hero_video > div h3 {
   font-size: 56px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1031,7 +1030,7 @@ ul#contact_details_footer li#email_footer {
   color: #fff;
 }
 
-#hero_video>div p {
+#hero_video > div p {
   font-size: 28px;
   margin-bottom: 45px;
 }
@@ -1216,7 +1215,7 @@ img.img-responsive.border {
   -o-background-size: cover;
 }
 
-.bg_content>div {
+.bg_content > div {
   display: table-cell;
   padding: 0 20%;
   vertical-align: middle;
@@ -1288,7 +1287,6 @@ blockquote.styled {
 }
 
 @media (max-width: 1024px) {
-
   .promo_full,
   .bg_content {
     background-attachment: scroll;
@@ -1318,7 +1316,7 @@ blockquote.styled {
     margin-top: 5px;
   }
 
-  #hero_video>div h3 {
+  #hero_video > div h3 {
     font-size: 42px;
   }
 }
@@ -1406,15 +1404,15 @@ blockquote.styled {
     height: 400px !important;
   }
 
-  #hero_video>div {
+  #hero_video > div {
     padding: 0 30px;
   }
 
-  #hero_video>div h3 {
+  #hero_video > div h3 {
     font-size: 32px;
   }
 
-  #hero_video>div p {
+  #hero_video > div p {
     font-size: 18px;
   }
 
@@ -1477,7 +1475,7 @@ blockquote.styled {
     height: 380px;
   }
 
-  .bg_content>div {
+  .bg_content > div {
     padding: 0 5%;
     padding-top: 20px;
     font-size: 16px;
@@ -1542,7 +1540,7 @@ blockquote.styled {
   }
 
   .promo_full_wp,
-  .promo_full_wp>div {
+  .promo_full_wp > div {
     display: block;
   }
 
@@ -1583,15 +1581,15 @@ blockquote.styled {
     height: 400px !important;
   }
 
-  #hero_video>div {
+  #hero_video > div {
     padding: 0 30px;
   }
 
-  #hero_video>div h3 {
+  #hero_video > div h3 {
     font-size: 24px;
   }
 
-  #hero_video>div p {
+  #hero_video > div p {
     font-size: 16px;
     margin-bottom: 25px;
   }
